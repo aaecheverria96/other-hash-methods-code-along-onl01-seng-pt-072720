@@ -11,5 +11,5 @@ require 'pry'
 def get_the_values(groceries)
 array = []
 groceries.to_a(array)
- return array.values #code your solution here!
+ return groceries.values #code your solution here!
 end
