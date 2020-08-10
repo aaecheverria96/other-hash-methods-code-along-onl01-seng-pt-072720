@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
 array = []
-array < ("groceries.values")
- return values_array #code your solution here!
+groceries.to_a?(array)
+ return array.values #code your solution here!
 end
