@@ -9,7 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-array = []
-groceries.to_a(array)
- return groceries.values #code your solution here!
+groceries.flatten() #code your solution here!
 end
